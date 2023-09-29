@@ -1,0 +1,211 @@
+* {box-sizing: border-box;}
+
+
+:root {
+    --prim: #26292e;
+    --bgWelcome: #e7718b;
+    --font: 'Butterfly Kids', cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #000;
+}
+
+.inner {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.header .inner {
+    background-color: #26292e;
+}
+
+.top-header {
+    margin: 8px 8px 8px 100px;
+    display: inline;
+    font-family: var(--font);
+    text-transform: capitalize;
+    float: left;
+    color: #c4c4c6;
+}
+
+.sub-header {
+    color: #ffefff;
+}
+
+.socials {
+    margin: 8px 0 8px 650px;
+    float: left;
+}
+
+.social-icon {
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.welcome-block {
+    padding: 20px 100px;
+    background-color: var(--bgWelcome);
+}
+
+.welcome-content {
+    display: inline-block;
+    padding-bottom: 40px;
+    width: 400px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.welcome-text {
+    text-align: justify;
+}
+
+.welcome-buttons {
+    margin-top: 40px;
+}
+
+.learn-button, .download-button {
+    margin-right: 8px;
+    padding: 8px;
+    text-transform: capitalize;
+    background-image: linear-gradient(#5f5d5e, #232726);
+    border-radius: 5px;
+    color: #c4c4c6;
+}
+
+.welcome-image {
+    margin: 0;
+    display: inline;
+    float: right;
+}
+
+.welcome-image img {
+    width: 550px;
+    height: auto;
+}
+
+.text-block {
+    padding: 20px 100px;
+    font-family: 'Open Sans, Sans Serif';
+    background-color: #f4f4f6;
+    display: inline;
+    float: left;
+}
+
+.text-block img {
+    margin-bottom: -10px;
+    width: 30px;
+    height: auto;
+}
+
+.text-block h3 {
+    padding-left: 8px;
+    width: 30%;
+    display: inline;
+}
+
+.text-list-body {
+    color: #c4c4c6;
+    width: 30%;
+    display: inline;
+}
+
+.first-list {
+    margin-right: 40px;
+    display: inline;
+    float: left;
+    width: 30%;
+}
+
+.second-list {
+    margin-right: 40px;
+    display: inline;
+    float: left;
+    width: 30%;
+}
+
+.third-list {
+    display: inline;
+    float: left;
+    width: 30%;
+}
+
+.product-block {
+    padding: 20px 100px 40px 100px;
+    float: left;
+    background-color: #ffffff;
+    width: 90;
+}
+
+.products {
+    margin-left: -20px;
+    display: inline-block;
+    width: 45%;
+}
+
+.product-header {
+    position: relative;
+    bottom: 90px;
+    padding-left: 20px;
+    color: gray;
+}
+
+.review-header {
+    color: gray;
+}
+
+.img-block {
+    position: relative;
+    bottom: 60px;
+}
+
+.products-images {
+    margin: 20px;
+    border: 10px solid #B9B9B9;
+    box-shadow: 0 6px 6px #9C9B9B;
+}
+
+.reviews {
+    display: inline-block;
+    width: 40%;
+}
+
+.review-text {
+    font-size: 15px;
+    line-height: 1.6
+}
+
+.reviewer {
+    font-weight: 1000;
+}
+
+.footer .inner {
+    background-color: var(--prim);
+    padding: 8px 100px;
+}
+
+.colophon {
+    display: inline-block;
+    width: 55%;
+    color: #c4c4c6;
+}
+
+.footer-socials {
+    padding-top: 8px;
+    float: right;
+}
